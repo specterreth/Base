@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "addressBook",
+						"type": "address"
+					}
+				],
+				"name": "AddressBookDeployed",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AddressBookFactory.sol": "AddressBookFactory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/access/Ownable.sol": {
+			"keccak256": "0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ed324d3920bb545059d66ab97d43e43ee85fd3bd52e03e401f020afb0b120f6",
+				"dweb:/ipfs/QmfEckWLmZkDDcoWrkEvMWhms66xwTLff9DDhegYpvHo1a"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12",
+				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
+			]
+		},
+		"AddressBook.sol": {
+			"keccak256": "0x0a9a8d56def12f7fab00d2d033f4bc887158b439d14a2e8dbcfe8798372231da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9bca098d58526ce253e8b6f65c15d5f8db8d113fce053b10e94f75564afb84e1",
+				"dweb:/ipfs/Qma7h2amAn4rLbbxws9gB4WBZtVZn6w1zgsVqwV47fRzXn"
+			]
+		},
+		"AddressBookFactory.sol": {
+			"keccak256": "0xa429ddea0eff2525663c98dd6dc00d6ad9afe34a1aea313410ae6aa1c0119ce9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://50e861886573b3150dfcfbd4d637f4f9d29a014bddab9b8abe65a95fff363283",
+				"dweb:/ipfs/QmWb2H8a5xFqxb2e1rbVvm8EsmWW3cV23wh3XMFapYDcJM"
+			]
+		}
+	},
+	"version": 1
+}

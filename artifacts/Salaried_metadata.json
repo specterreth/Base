@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_idNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_managerId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_annualSalary",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "annualSalary",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAnnualCost",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "idNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "managerId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Salaried.sol": "Salaried"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Employee.sol": {
+			"keccak256": "0x668745364265ed81f0d26eab97d05ba4d0d5cab598d3224d264c5fb7cecac41e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e53262b8303678b51db93b16ffb2a0559357b60f8cb9145ff93d8690d086396",
+				"dweb:/ipfs/QmQhaY3tXGAYBB3YT96pS4TUFyqqCB2sHmK4xGegUhnMKr"
+			]
+		},
+		"Salaried.sol": {
+			"keccak256": "0xb314e9e3da4709d095ef4a86050905465446cf5a0d6e12a36700a2cde870251c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://29421f6d49ca2ca2ddc5b59a16045c9861210e6f50798695d09e88c1586d05d9",
+				"dweb:/ipfs/QmYY1N1SxdVVYiVWJFSBtauBWeR97AeBuFaXCKiLUMoUB4"
+			]
+		}
+	},
+	"version": 1
+}

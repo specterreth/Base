@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_idNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_managerId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_hourlyRate",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getAnnualCost",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hourlyRate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "idNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "managerId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hourly.sol": "Hourly"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Employee.sol": {
+			"keccak256": "0x668745364265ed81f0d26eab97d05ba4d0d5cab598d3224d264c5fb7cecac41e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e53262b8303678b51db93b16ffb2a0559357b60f8cb9145ff93d8690d086396",
+				"dweb:/ipfs/QmQhaY3tXGAYBB3YT96pS4TUFyqqCB2sHmK4xGegUhnMKr"
+			]
+		},
+		"Hourly.sol": {
+			"keccak256": "0x5566909a074ba884c11146eb88a17c0cec9f7d58eb367bce4201a1ed6a320aa3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d92ba2370ce81bcded650df30728cdfc6b4b6922fc0a1aec82de687f69a004b7",
+				"dweb:/ipfs/QmaUG73vUqso5Fka81w4UL45Wf5JhPz3iGmZ3C8h6W1P1C"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,241 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "BadCarIndex",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_make",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_color",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_numberOfDoors",
+						"type": "uint256"
+					}
+				],
+				"name": "addCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMyCars",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "make",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "model",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "color",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "numberOfDoors",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct GarageManager.Car[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "getUserCars",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "make",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "model",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "color",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "numberOfDoors",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct GarageManager.Car[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetMyGarage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_make",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_color",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_numberOfDoors",
+						"type": "uint256"
+					}
+				],
+				"name": "updateCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Contract to manage a garage of cars for each user",
+			"kind": "dev",
+			"methods": {
+				"addCar(string,string,string,uint256)": {
+					"details": "Adds a new car to the caller's garage",
+					"params": {
+						"_color": "The color of the car",
+						"_make": "The make of the car",
+						"_model": "The model of the car",
+						"_numberOfDoors": "The number of doors of the car"
+					}
+				},
+				"getMyCars()": {
+					"details": "Retrieves the caller's array of cars",
+					"returns": {
+						"_0": "An array of `Car` structs"
+					}
+				},
+				"getUserCars(address)": {
+					"details": "Retrieves a specific user's array of cars",
+					"params": {
+						"_user": "The address of the user"
+					},
+					"returns": {
+						"_0": "An array of `Car` structs"
+					}
+				},
+				"resetMyGarage()": {
+					"details": "Deletes all cars in the caller's garage"
+				},
+				"updateCar(uint256,string,string,string,uint256)": {
+					"details": "Updates a specific car in the caller's garage",
+					"params": {
+						"_color": "The new color of the car",
+						"_index": "The index of the car in the garage array",
+						"_make": "The new make of the car",
+						"_model": "The new model of the car",
+						"_numberOfDoors": "The new number of doors of the car"
+					}
+				}
+			},
+			"title": "GarageManager",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"structs.sol": "GarageManager"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"structs.sol": {
+			"keccak256": "0xaf78ad5ea1db311588c24658717478a662c0e95b575bd003bd9ab59f358c1e26",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0b250fe9be009571d769e1e34e43658e919e0ac5dd59fb493a1d4b7c57cd0853",
+				"dweb:/ipfs/QmTRgXvuXpoyvZNmxvVzYN9jKnTPHFDPUyTef1RSFY3iFg"
+			]
+		}
+	},
+	"version": 1
+}

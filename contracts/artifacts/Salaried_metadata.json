@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_idNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_managerId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_annualSalary",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "annualSalary",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAnnualCost",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "idNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "managerId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Salaried.sol": "Salaried"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Employee.sol": {
+			"keccak256": "0x92f08544b57a4c89f2b41285505836f6185dbf62f079ef8f8da31d8fca63e956",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://38bcd338412d3640df8721a99c7cef37f3180f794061a34eed8515487579853e",
+				"dweb:/ipfs/QmXkXQUSaE9NymuK3DuQD9Kb8tpeBZWwz9EKDeQdM6ZggZ"
+			]
+		},
+		"contracts/Salaried.sol": {
+			"keccak256": "0x6f85c9ca05d62357ac2ac752b161ed643db790c0ab64e343116b531567c64090",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://f5fafb8ad0ff7a37a0fb58808c2a9e5776f4f314c87e1fc4347c690d0d4d2cc1",
+				"dweb:/ipfs/QmeQfVTjLXvGKX3u9ksHFrCHb4pxoL2fnHp37neZrDvXdZ"
+			]
+		}
+	},
+	"version": 1
+}
